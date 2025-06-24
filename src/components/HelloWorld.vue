@@ -7,7 +7,7 @@ defineProps<{
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
-    <h3 class="bg-amber-400">
+    <h3 class="ml-4 flex h-24 border-2 border-gray-300 p-3 text-gray-700 shadow-md">
       You’ve successfully created a project with
       <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
